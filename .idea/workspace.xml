@@ -4,16 +4,25 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1ef33d94-79a8-4ae3-a708-e384fda71093" name="Changes" comment="">
+    <list default="true" id="1ef33d94-79a8-4ae3-a708-e384fda71093" name="Changes" comment="Initial commit was blank .So added a new file and doing a second commit">
+      <change afterPath="$PROJECT_DIR$/test/constants/constants.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/pageObjects/pageFactory/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/pageObjects/pageFactory/dashboard_PageFactory.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/pageObjects/pageFactory/loginPage_PageFactory.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/pageObjects/pageObjectModel/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/pageObjects/pageObjectModel/vwo/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/pageObjects/pageObjectModel/vwo/dashboardPage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/pageObjects/pageObjectModel/vwo/freeTrialPage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/pageObjects/pageObjectModel/vwo/loginPage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/tests/vwoLogin/conftest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/tests/vwoLogin/test_vwo_free_trial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/tests/vwoLogin/test_vwo_login.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/tests/vwoLogin/test_vwo_login_pf.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/utils/common_utils.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pytest.ini" beforeDir="false" afterPath="$PROJECT_DIR$/pytest.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/tests/sample/test_sample.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/tests/sample/test_sample.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/tests/sample/test_vwoLogin_NotOptimized.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/tests/sample/test_vwoLogin_NotOptimized.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/utils/Utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/utils/Utils.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,18 +39,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "Roopa888"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Roopa888&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/Roopa888/Py5xWebAutomationFramework.git",
-    "accountId": "ebe17dd0-85c8-447a-bf6b-788dbd29bcb8"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Roopa888/Py5xWebAutomationFramework.git&quot;,
+    &quot;accountId&quot;: &quot;ebe17dd0-85c8-447a-bf6b-788dbd29bcb8&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 7
 }</component>
@@ -51,14 +60,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python tests.Python tests for test_vwoLogin_NotOptimized.test_app_vwo_login_chrome.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python tests.Python tests for test_vwoLogin_NotOptimized.test_app_vwo_login_chrome.executor": "Run",
+    "Python tests.Python tests for test_vwo_free_trial.test_vwo_ft_negative.executor": "Run",
+    "Python tests.Python tests for test_vwo_login.test_vwo_login_negative.executor": "Run",
+    "Python tests.Python tests for test_vwo_login.test_vwo_login_positive.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/aslog/PycharmProjects/Py5xWebAutomationFramework/test/tests/sample",
+    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.Console Colors"
   }
-}</component>
-  <component name="RunManager">
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\aslog\PycharmProjects\Py5xWebAutomationFramework\test\tests\sample" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python tests.Python tests for test_vwo_free_trial.test_vwo_ft_negative">
     <configuration name="Python tests for test_vwoLogin_NotOptimized.test_app_vwo_login_chrome" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="Py5xWebAutomationFramework" />
       <option name="ENV_FILES" value="" />
@@ -74,8 +93,56 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="Python tests for test_vwo_free_trial.test_vwo_ft_negative" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="Py5xWebAutomationFramework" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test/tests/vwoLogin" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_vwo_free_trial.test_vwo_ft_negative&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_vwo_login.test_vwo_login_negative" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="Py5xWebAutomationFramework" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test/tests/vwoLogin" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_vwo_login.test_vwo_login_negative&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_vwo_login.test_vwo_login_positive" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="Py5xWebAutomationFramework" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test/tests/vwoLogin" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_vwo_login.test_vwo_login_positive&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Python tests for test_vwo_free_trial.test_vwo_ft_negative" />
+        <item itemvalue="Python tests.Python tests for test_vwo_login.test_vwo_login_negative" />
+        <item itemvalue="Python tests.Python tests for test_vwo_login.test_vwo_login_positive" />
         <item itemvalue="Python tests.Python tests for test_vwoLogin_NotOptimized.test_app_vwo_login_chrome" />
       </list>
     </recent_temporary>
@@ -96,6 +163,19 @@
       <option name="presentableId" value="Default" />
       <updated>1737739154949</updated>
     </task>
+    <task id="LOCAL-00001" summary="Initial commit was blank .So added a new file and doing a second commit">
+      <option name="closed" value="true" />
+      <created>1737888361430</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1737888361430</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial commit was blank .So added a new file and doing a second commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial commit was blank .So added a new file and doing a second commit" />
   </component>
 </project>
