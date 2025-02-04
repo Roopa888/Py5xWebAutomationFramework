@@ -11,5 +11,5 @@ class Constants:
         return "https://app.vwo.com/"
 
     @staticmethod
-    def app_dashboard_url(self):
+    def app_dashboard_url():
         return "https://app.vwo.com/#/dashboard"

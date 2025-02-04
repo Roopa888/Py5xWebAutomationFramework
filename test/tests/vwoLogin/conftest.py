@@ -9,7 +9,6 @@ driver=webdriver.Edge()
 print("driver got")
 @pytest.fixture(scope='class') #it is available to all classes
 def setup(request):
-    print("cvv")
     #driver = webdriver.Edge()
     driver.maximize_window()
     username=os.getenv("USER_NAME")
