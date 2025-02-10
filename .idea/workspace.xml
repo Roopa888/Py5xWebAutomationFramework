@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1ef33d94-79a8-4ae3-a708-e384fda71093" name="Changes" comment="Page Object Model,Page factory ,Conftest.py added and framework is ready">
+    <list default="true" id="1ef33d94-79a8-4ae3-a708-e384fda71093" name="Changes" comment="Page Object Model,Page factory ,Conftest.py added and framework is ready-Updated fro some issues">
+      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/constants/constants.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/constants/constants.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/tests/vwoLogin/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/tests/vwoLogin/conftest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/tests/vwoLogin/test_vwo_login_pf.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/tests/vwoLogin/test_vwo_login_pf.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,19 +44,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python tests.Python tests for test_vwoLogin_NotOptimized.test_app_vwo_login_chrome.executor": "Run",
-    "Python tests.Python tests for test_vwo_free_trial.test_vwo_ft_negative.executor": "Run",
-    "Python tests.Python tests for test_vwo_login.test_vwo_login_negative.executor": "Run",
-    "Python tests.Python tests for test_vwo_login.test_vwo_login_positive.executor": "Run",
-    "Python tests.Python tests for test_vwo_login_pf.TestVWOLogin.test_vwo_login_positive.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/aslog/PycharmProjects/Py5xWebAutomationFramework/test/tests/sample",
-    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.Console Colors"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python tests.Python tests for test_vwoLogin_NotOptimized.test_app_vwo_login_chrome.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_vwo_free_trial.test_vwo_ft_negative.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_vwo_login.test_vwo_login_negative.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_vwo_login.test_vwo_login_positive.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_vwo_login_pf.TestVWOLogin.test_vwo_login_positive.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/aslog/PycharmProjects/Py5xWebAutomationFramework/test/tests/sample&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.IDE.editor.colors.Console Colors&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\aslog\PycharmProjects\Py5xWebAutomationFramework\test\tests\sample" />
@@ -190,7 +188,15 @@
       <option name="project" value="LOCAL" />
       <updated>1738155481854</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Page Object Model,Page factory ,Conftest.py added and framework is ready-Updated fro some issues">
+      <option name="closed" value="true" />
+      <created>1738684544501</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1738684544502</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -207,6 +213,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit was blank .So added a new file and doing a second commit" />
     <MESSAGE value="Page Object Model,Page factory ,Conftest.py added and framework is ready" />
-    <option name="LAST_COMMIT_MESSAGE" value="Page Object Model,Page factory ,Conftest.py added and framework is ready" />
+    <MESSAGE value="Page Object Model,Page factory ,Conftest.py added and framework is ready-Updated fro some issues" />
+    <option name="LAST_COMMIT_MESSAGE" value="Page Object Model,Page factory ,Conftest.py added and framework is ready-Updated fro some issues" />
   </component>
 </project>
