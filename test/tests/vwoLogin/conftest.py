@@ -5,7 +5,7 @@ from selenium.webdriver import Chrome
 import os
 from dotenv import load_dotenv
 load_dotenv()
-driver=webdriver.Edge()
+driver=webdriver.Chrome()
 print("driver got")
 @pytest.fixture(scope='class') #it is available to all classes
 def setup(request):
