@@ -1,8 +1,9 @@
 
 from selenium import webdriver
 import pytest
-from selenium.webdriver import Chrome,ChromeOptions
-from selenium.webdriver.edge.options import Options as EdgeOptions, Options
+from selenium.webdriver import Chrome
+from selenium.webdriver.chrome.options import Options
+#from selenium.webdriver.edge.options import Options as EdgeOptions, Options
 import os
 from dotenv import load_dotenv
 load_dotenv()
