@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1ef33d94-79a8-4ae3-a708-e384fda71093" name="Changes" comment="Update browser to edge">
+    <list default="true" id="1ef33d94-79a8-4ae3-a708-e384fda71093" name="Changes" comment="edge option">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/tests/vwoLogin/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/tests/vwoLogin/conftest.py" afterDir="false" />
     </list>
@@ -244,7 +244,15 @@
       <option name="project" value="LOCAL" />
       <updated>1739254653691</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="edge option">
+      <option name="closed" value="true" />
+      <created>1739260442339</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1739260442339</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -266,6 +274,7 @@
     <MESSAGE value="Added new requirements.txt" />
     <MESSAGE value="Added Chrome" />
     <MESSAGE value="Update browser to edge" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update browser to edge" />
+    <MESSAGE value="edge option" />
+    <option name="LAST_COMMIT_MESSAGE" value="edge option" />
   </component>
 </project>
