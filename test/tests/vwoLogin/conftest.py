@@ -5,7 +5,11 @@ from selenium.webdriver import Chrome
 import os
 from dotenv import load_dotenv
 load_dotenv()
-driver=webdriver.Edge()
+edge_options = webdriver.EdgeOptions()
+edge_options.add_argument("no-sandbox")
+edge_options.add_argument("disable-dev-shm-usage")
+driver = webdriver.Edge(options = edge_options)
+#driver=webdriver.Edge()
 print("driver got")
 @pytest.fixture(scope='class') #it is available to all classes
 def setup(request):
