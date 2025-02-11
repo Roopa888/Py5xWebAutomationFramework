@@ -16,7 +16,6 @@ driver = webdriver.Edge(executable_path=r"C:\Users\aslog\Downloads\edgedriver_wi
 # options.add_argument("--disable-dev-shm-usage")
 # options.add_argument("--remote-debugging-port=9222")
 #driver = webdriver.Edge(options =options)
-
 #driver=webdriver.Edge()
 print("driver got")
 @pytest.fixture(scope='class') #it is available to all classes
