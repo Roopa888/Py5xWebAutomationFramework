@@ -9,7 +9,7 @@ from test.pageObjects.pageFactory.loginPage_PageFactory import LoginPage
 from test.constants.constants import Constants
 from allure_commons.types import AttachmentType
 
-from test.tests.vwoLogin.conftest import driver
+#from test.tests.vwoLogin.conftest import driver
 from test.utils.Utils import take_screen_shot
 
 
