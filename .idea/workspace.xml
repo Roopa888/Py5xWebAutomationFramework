@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1ef33d94-79a8-4ae3-a708-e384fda71093" name="Changes" comment=" edge options updated in conftest.py">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/tests/vwoLogin/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/tests/vwoLogin/conftest.py" afterDir="false" />
-    </list>
+    <list default="true" id="1ef33d94-79a8-4ae3-a708-e384fda71093" name="Changes" comment="conft" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -276,7 +273,23 @@
       <option name="project" value="LOCAL" />
       <updated>1739275176434</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="conftr">
+      <option name="closed" value="true" />
+      <created>1739277338300</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1739277338300</updated>
+    </task>
+    <task id="LOCAL-00016" summary="conft">
+      <option name="closed" value="true" />
+      <created>1739277429324</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1739277429324</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -301,6 +314,8 @@
     <MESSAGE value="edge option" />
     <MESSAGE value=" option" />
     <MESSAGE value=" edge options updated in conftest.py" />
-    <option name="LAST_COMMIT_MESSAGE" value=" edge options updated in conftest.py" />
+    <MESSAGE value="conftr" />
+    <MESSAGE value="conft" />
+    <option name="LAST_COMMIT_MESSAGE" value="conft" />
   </component>
 </project>
