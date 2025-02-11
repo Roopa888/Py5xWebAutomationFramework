@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1ef33d94-79a8-4ae3-a708-e384fda71093" name="Changes" comment=" option">
+    <list default="true" id="1ef33d94-79a8-4ae3-a708-e384fda71093" name="Changes" comment=" edge options updated in conftest.py">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/tests/vwoLogin/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/tests/vwoLogin/conftest.py" afterDir="false" />
     </list>
@@ -268,7 +268,15 @@
       <option name="project" value="LOCAL" />
       <updated>1739266367068</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary=" edge options updated in conftest.py">
+      <option name="closed" value="true" />
+      <created>1739275176432</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1739275176434</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -292,6 +300,7 @@
     <MESSAGE value="Update browser to edge" />
     <MESSAGE value="edge option" />
     <MESSAGE value=" option" />
-    <option name="LAST_COMMIT_MESSAGE" value=" option" />
+    <MESSAGE value=" edge options updated in conftest.py" />
+    <option name="LAST_COMMIT_MESSAGE" value=" edge options updated in conftest.py" />
   </component>
 </project>
