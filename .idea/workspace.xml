@@ -4,13 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1ef33d94-79a8-4ae3-a708-e384fda71093" name="Changes" comment="conf">
-      <change afterPath="$PROJECT_DIR$/test/constants/constants_katalon.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/pageObjects/pageObjectModel/katalon/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/pageObjects/pageObjectModel/katalon/katalonStudioLandingPage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/tests/katalonStudio/katalon_landing_page.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="1ef33d94-79a8-4ae3-a708-e384fda71093" name="Changes" comment="katalon and edge settings">
+      <change beforePath="$PROJECT_DIR$/test/tests/vwoLogin/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/tests/vwoLogin/conftest.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -346,7 +341,15 @@
       <option name="project" value="LOCAL" />
       <updated>1739286169511</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="katalon and edge settings">
+      <option name="closed" value="true" />
+      <created>1739468980891</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1739468980891</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -374,6 +377,7 @@
     <MESSAGE value="conftr" />
     <MESSAGE value="conft" />
     <MESSAGE value="conf" />
-    <option name="LAST_COMMIT_MESSAGE" value="conf" />
+    <MESSAGE value="katalon and edge settings" />
+    <option name="LAST_COMMIT_MESSAGE" value="katalon and edge settings" />
   </component>
 </project>

@@ -11,7 +11,7 @@ options = EdgeOptions()
 options.add_argument("--no-sandbox")
 options.add_argument("--disable-dev-shm-usage")
 options.add_argument("--remote-debugging-port=9222")
-options.add_argument("user-data-dir = C:/Users/XYZ/AppData/Local/Microsoft/Edge/User Data/Default")
+options.add_argument("user-data-dir = C:/Users/aslog/AppData/Local/Microsoft/Edge/User Data/Default")
 driver = webdriver.Edge(options =options)
 # options = Options()
 # options.headless = False  # Set to True if you want headless
