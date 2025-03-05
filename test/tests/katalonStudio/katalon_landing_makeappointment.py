@@ -2,7 +2,9 @@ import pytest
 import allure
 from selenium import webdriver
 from test.pageObjects.pageObjectModel.katalon.katalonStudioLandingPage import LandingPage
+from test.pageObjects.pageObjectModel.katalon.katalon_make_appointment_page import LoginAppointmentpage
 from test.constants.constants_katalon import ConstantsKatalon
+from test.tests.vwoLogin.conftest import driver
 from test.utils.Utils import *
 import os
 from dotenv import load_dotenv
@@ -26,3 +28,12 @@ def test_katalon_landing_page(setup_katalon):
     webdriver_wait_url(driver=driver,timeout=6)
     assert driver.current_url=="https://katalon-demo-cura.herokuapp.com/profile.php#login"
     take_screen_shot(driver=driver,name="Appointment page")
+#def test_login_make_appointment_page():
+    login_appointmentpage=LoginAppointmentpage(driver=driver)
+    take_screen_shot(driver=driver,name="Login  Appointment Page")
+    login_appointmentpage.login_to_make_appointment("John Doe","ThisIsNotAPassword")
+    webdriver_wait_url(driver=driver, timeout=6)
+    assert driver.current_url=="https://katalon-demo-cura.herokuapp.com/#appointment"
+    take_screen_shot(driver=driver,name="Appointment page")
+
+
