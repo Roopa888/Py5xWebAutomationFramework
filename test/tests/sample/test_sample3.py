@@ -10,6 +10,7 @@ chromedriver_path = chromedriver_autoinstaller.install()
 service = Service(chromedriver_path)
 driver = webdriver.Chrome(service=service)
 # Your Selenium tests here
-driver.get("https://www.w3schools.com/")
-print(driver.title)
-driver.quit()
+import urllib.request
+htmlfile = urllib.request.urlopen("http://google.com")
+htmltext = htmlfile.read()
+print(htmltext)
